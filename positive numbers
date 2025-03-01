@@ -1,0 +1,8 @@
+# List of numbers
+numbers = [-10, 15, -3, 8, 0, -5, 12]
+
+# Filtering positive numbers
+positive_numbers = [num for num in numbers if num > 0]
+
+# Printing positive numbers
+print("Positive numbers:", positive_numbers)
